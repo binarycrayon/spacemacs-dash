@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Frequently Asked Questions</title>
+<!-- 2017-11-15 Wed 12:36 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Yudi Xue" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Frequently Asked Questions</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Common</a>
+<ul>
+<li><a href="#sec-1-1">1.1. Which version of Spacemacs am I running?</a></li>
+<li><a href="#sec-1-2">1.2. What is the official pronunciation of Spacemacs?</a></li>
+<li><a href="#sec-1-3">1.3. Why do you call this a "distribution", I don't see any "Spacemacs" executable?</a></li>
+<li><a href="#sec-1-4">1.4. Why are packages installed with <code>package-install</code> automatically deleted by Spacemacs when it boots?</a></li>
+<li><a href="#sec-1-5">1.5. How to fix package download errors when installing Spacemacs ?</a></li>
+<li><a href="#sec-1-6">1.6. How to fix <code>Symbol's value as variable is void</code> errors on startup?</a></li>
+<li><a href="#sec-1-7">1.7. How to fix <code>(wrong-type-argument arrayp nil)</code> errors on startup?</a></li>
+<li><a href="#sec-1-8">1.8. The Spacemacs banner is ugly, what should I do?</a></li>
+<li><a href="#sec-1-9">1.9. The powerline separators are ugly, how can I fix them?</a></li>
+<li><a href="#sec-1-10">1.10. The powerline separators have no anti-aliasing, what can I do?</a></li>
+<li><a href="#sec-1-11">1.11. Why is after-init-hook not executed?</a></li>
+<li><a href="#sec-1-12">1.12. What is the difference between <code>spacemacs-base</code> and <code>spacemacs</code> distributions?</a></li>
+<li><a href="#sec-1-13">1.13. Should I place my settings in <code>user-init</code> or <code>user-config</code>?</a></li>
+<li><a href="#sec-1-14">1.14. Why do some of my <code>org</code>-related settings cause problems?</a></li>
+<li><a href="#sec-1-15">1.15. Why is Spacemacs hanging on startup?</a></li>
+<li><a href="#sec-1-16">1.16. Why does <code>helm-M-x</code> (<code>SPC SPC</code>) not accept the prefix argument?</a></li>
+<li><a href="#sec-1-17">1.17. Why does my color theme not render correctly in terminal mode?</a></li>
+<li><a href="#sec-1-18">1.18. Typing quickly <code>fd</code> takes me out of <code>insert state</code>. What is going on?</a></li>
+<li><a href="#sec-1-19">1.19. Why do I get files starting with .#?</a></li>
+<li><a href="#sec-1-20">1.20. Why do I get '4m' characters inside ansi-term?</a></li>
+<li><a href="#sec-1-21">1.21. Why are my font settings not being respected?</a></li>
+<li><a href="#sec-1-22">1.22. Why am I getting a message about environment variables on startup?</a></li>
+</ul>
+</li>
+<li><a href="#how-do-i">2. How do I:</a>
+<ul>
+<li><a href="#sec-2-1">2.1. Install a package not provided by a layer?</a></li>
+<li><a href="#sec-2-2">2.2. Disable a package completely?</a></li>
+<li><a href="#sec-2-3">2.3. Disable a package only for a specific major-mode?</a></li>
+<li><a href="#sec-2-4">2.4. Disable company for a specific major-mode?</a></li>
+<li><a href="#change-special-buffer-rules">2.5. Change special buffer rules?</a></li>
+<li><a href="#sec-2-6">2.6. Enable navigation by visual lines?</a></li>
+<li><a href="#sec-2-7">2.7. Disable evilification of a mode?</a></li>
+<li><a href="#sec-2-8">2.8. Include underscores in word motions?</a></li>
+<li><a href="#sec-2-9">2.9. Setup <code>$PATH</code>?</a></li>
+<li><a href="#sec-2-10">2.10. Change or define an alias for a leader key?</a></li>
+<li><a href="#sec-2-11">2.11. Restore the sentence delimiter to two spaces?</a></li>
+<li><a href="#sec-2-12">2.12. Prevent the visual selection overriding my system clipboard?</a></li>
+<li><a href="#sec-2-13">2.13. Make spell-checking support curly quotes (or any other character)?</a></li>
+<li><a href="#sec-2-14">2.14. Use Spacemacs as the <code>$EDITOR</code> for git commits?</a></li>
+<li><a href="#sec-2-15">2.15. Try Spacemacs without modifying my existing Emacs configuration?</a></li>
+<li><a href="#sec-2-16">2.16. Make copy/paste working with the mouse in X11 terminals?</a></li>
+<li><a href="#sec-2-17">2.17. Use <code>helm-ag</code> to search only in files of a certain type?</a></li>
+<li><a href="#sec-2-18">2.18. Modify spacemacs documentation look (space-doc-mode)</a></li>
+<li><a href="#sec-2-19">2.19. Remap paste key to be able to paste copied text multiple times</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. Windows</a>
+<ul>
+<li><a href="#sec-3-1">3.1. Why do the fonts look crappy on Windows?</a></li>
+<li><a href="#sec-3-2">3.2. Why is there no Spacemacs logo in the startup buffer?</a></li>
+<li><a href="#sec-3-3">3.3. Why are all packages unavailable?</a></li>
+<li><a href="#sec-3-4">3.4. The powerline isn't shown correctly when Spacemacs is used within <code>PuTTY</code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Common</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Which version of Spacemacs am I running?</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+The version is displayed on the upper right corner of the loading screen. You
+may also just type <code>SPC f e v</code>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> What is the official pronunciation of Spacemacs?</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+As it is written, that is <span class="underline">space</span> then <span class="underline">macs</span>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Why do you call this a "distribution", I don't see any "Spacemacs" executable?</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Although we could do it we don't package Emacs with Spacemacs. We allow users to
+choose whatever build of Emacs they want that works with their OS, this is more
+flexible and it saves use tons of issues. Spacemacs is more than a configuration
+of Emacs it comes with advanced feature, concepts and tooling. Roughly, think of
+it as a Linux distribution where we would ask people to install the kernel first
+and then fetch somehow the actual code to get the distribution.
+Note that some Linux distributions may start to create packages for Spacemacs,
+they are unofficial packages, we will never package Emacs with Spacemacs.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> Why are packages installed with <code>package-install</code> automatically deleted by Spacemacs when it boots?</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+By default Spacemacs will keep only the packages that you use (i.e. the packages
+belonging to a layer explicitly listed in the variable
+<code>dotspacemacs-configuration-layers</code>).
+</p>
+
+<p>
+To install packages that does not belong to any Spacemacs layers, you can:
+</p>
+
+<ul class="org-ul">
+<li>use the variable <code>dotspacemacs-additional-packages</code>.
+</li>
+<li>or create a configuration layer configuring the package and add this layer to
+<code>dotspacemacs-configuration-layers</code>
+</li>
+<li>or set the variable <code>dotspacemacs-install-packages</code> to <code>used-but-keep-unused</code>
+which will prevent Spacemacs from removing the packages you installed
+manually.
+</li>
+</ul>
+
+<p>
+To create a new configuration layer see the <a href="QUICK_START.html">quick start guide</a> for more info.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-5" class="outline-3">
+<h3 id="sec-1-5"><span class="section-number-3">1.5</span> How to fix package download errors when installing Spacemacs ?</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+Since 0.105.0 HTTPS protocol is used by default to download packages. If your
+environment does not allow HTTPS to reach ELPA repositories then you can start
+Emacs with the <code>--insecure</code> argument for force the usage of HTTP non secured
+protocol. You can set the variable <code>dotspacemacs-elpa-https</code> to <code>nil</code> in your
+dotfile to remove the need to start Emacs with <code>--insecure</code> argument.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-6" class="outline-3">
+<h3 id="sec-1-6"><span class="section-number-3">1.6</span> How to fix <code>Symbol's value as variable is void</code> errors on startup?</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+If Emacs reports an error that the symbol <code>closed</code> or <code>-</code> is unbound as a
+variable, it is probably because you are using HTTPS to download packages, but
+you shouldn't be. Try deleting your packages (the <code>.emacs.d/elpa</code> folder), and
+restart Emacs without HTTPS to download the packages again. There are two ways
+to do this:
+</p>
+
+<ul class="org-ul">
+<li>Run Emacs with the <code>--insecure</code> command line argument: <code>emacs --insecure</code>. You
+will have to do this again the next time you update your packages.
+</li>
+<li>Set the variable <code>dotspacemacs-elpa-https</code> to <code>nil</code> in your dotfile. This has
+the same effect as <code>--insecure</code>, but is persistent.
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-7" class="outline-3">
+<h3 id="sec-1-7"><span class="section-number-3">1.7</span> How to fix <code>(wrong-type-argument arrayp nil)</code> errors on startup?</h3>
+<div class="outline-text-3" id="text-1-7">
+<p>
+This is most likely caused by a corrupted package archive. Try deleting your
+<code>~/.emacs.d/elpa/archives/</code> folder and restart Emacs.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-8" class="outline-3">
+<h3 id="sec-1-8"><span class="section-number-3">1.8</span> The Spacemacs banner is ugly, what should I do?</h3>
+<div class="outline-text-3" id="text-1-8">
+<p>
+Install the default font supported by Spacemacs or choose a fixed width font.
+More information in the font section of the <a href="DOCUMENTATION.html">documentation</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-9" class="outline-3">
+<h3 id="sec-1-9"><span class="section-number-3">1.9</span> The powerline separators are ugly, how can I fix them?</h3>
+<div class="outline-text-3" id="text-1-9">
+<p>
+Use the property <code>:powerline-scale</code> of the variable <code>dotspacemacs-default-font</code>.
+See font section of the <a href="DOCUMENTATION.html">documentation</a> for more details.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-10" class="outline-3">
+<h3 id="sec-1-10"><span class="section-number-3">1.10</span> The powerline separators have no anti-aliasing, what can I do?</h3>
+<div class="outline-text-3" id="text-1-10">
+<p>
+Emacs powerline uses XMP images to draw the separators in a graphical
+environment. You can have anti-aliasing if you use the <code>utf8</code> separator. Note
+that by default the <code>utf8</code> separator is used in a terminal. See the powerline
+section in the font section of the <a href="DOCUMENTATION.html">documentation</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-11" class="outline-3">
+<h3 id="sec-1-11"><span class="section-number-3">1.11</span> Why is after-init-hook not executed?</h3>
+<div class="outline-text-3" id="text-1-11">
+<p>
+Don't launch Spacemacs with <code>emacs -q -l init.el</code> command. This command will run
+the hooked functions in <code>after-init-hook</code> before the evaluation of the passed
+<code>-l init.el</code> file.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-12" class="outline-3">
+<h3 id="sec-1-12"><span class="section-number-3">1.12</span> What is the difference between <code>spacemacs-base</code> and <code>spacemacs</code> distributions?</h3>
+<div class="outline-text-3" id="text-1-12">
+<p>
+The <code>distribution</code> concept was introduced in 0.104.x. You can now choose between
+two distributions <code>spacemacs</code> or <code>spacemacs-base</code>. <code>spacemacs-base</code> contains
+only a minimal set of packages; whereas <code>spacemacs</code> is the full Spacemacs
+experience.
+</p>
+
+<p>
+Set the distribution with <code>dotspacemacs-distribution</code> variable. The default is
+<code>spacemacs</code>. For more information as to what is included, check out the
+<code>packages.el</code> file in the respective folders in the <code>+distributions</code> folder of
+the <code>layers/</code> directory.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-13" class="outline-3">
+<h3 id="sec-1-13"><span class="section-number-3">1.13</span> Should I place my settings in <code>user-init</code> or <code>user-config</code>?</h3>
+<div class="outline-text-3" id="text-1-13">
+<p>
+Any variable that layer configuration code will <b>read</b> and <b>act on</b> must be set
+in <code>user-init</code>, and any variable that Spacemacs explicitly sets but you wish to
+<b>override</b> must be set in <code>user-config</code>.
+</p>
+
+<p>
+Anything that isn't just setting a variable should 99% be in <code>user-config</code>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-14" class="outline-3">
+<h3 id="sec-1-14"><span class="section-number-3">1.14</span> Why do some of my <code>org</code>-related settings cause problems?</h3>
+<div class="outline-text-3" id="text-1-14">
+<p>
+Since version 0.104, spacemacs uses the <code>org</code> version from the org ELPA
+repository instead of the one shipped with emacs. Then, any <code>org</code> related code
+should not be loaded before <code>dotspacemacs/user-config</code>, otherwise both versions
+will be loaded and will conflict.
+</p>
+
+<p>
+Because of autoloading, calling to <code>org</code> functions will trigger the loading up
+of the <code>org</code> shipped with emacs wich will induce conflicts. One way to avoid
+conflict is to wrap your <code>org</code> config code in a <code>with-eval-after-load</code> block
+like this:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(with-eval-after-load 'org
+  ;; here goes your Org config :)
+  ;; ....
+  )
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-15" class="outline-3">
+<h3 id="sec-1-15"><span class="section-number-3">1.15</span> Why is Spacemacs hanging on startup?</h3>
+<div class="outline-text-3" id="text-1-15">
+<p>
+This is probably related to Helm using Tramp which tries to figure out some
+SSH/DNS settings at startup. The root cause is probably your ISP redirecting
+non-existing addresses to their own servers.
+</p>
+
+<p>
+Try using these settings in the <code>user-init</code> function in your <code>.spacemacs</code>
+configuration:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(setq tramp-ssh-controlmaster-options
+      "-o ControlMaster=auto -o ControlPath='tramp.%%C' -o ControlPersist=no")
+</pre>
+</div>
+
+<p>
+See <a href="https://github.com/syl20bnr/spacemacs/issues/3422#issuecomment-148919047">issue #3422</a> and <a href="https://github.com/emacs-helm/helm/issues/1000#issuecomment-119487649">helm issue #1000</a> for details. If for any reason this code is
+not working, you can try to put these settings directly in <code>~/.ssh/config</code>:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-ssh">Host *
+ControlMaster auto
+ControlPath ~/.ssh/master -%r@%h:%p
+ControlPersist = no
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-16" class="outline-3">
+<h3 id="sec-1-16"><span class="section-number-3">1.16</span> Why does <code>helm-M-x</code> (<code>SPC SPC</code>) not accept the prefix argument?</h3>
+<div class="outline-text-3" id="text-1-16">
+<p>
+If you try to run <code>helm-M-x</code> with the prefix argument (i.e. <code>SPC u SPC SPC</code>) it
+will fail with this message:
+</p>
+
+<p class="verse">
+Error: Specifying a prefix arg before calling helm-M-x<br  />
+</p>
+
+<p>
+Instead, call <code>helm-M-x</code> first, select the command you want to run, and press
+<code>C-u</code> before pressing <code>RETURN</code>. For instance: <code>SPC SPC org-reload C-u RET</code>
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-17" class="outline-3">
+<h3 id="sec-1-17"><span class="section-number-3">1.17</span> Why does my color theme not render correctly in terminal mode?</h3>
+<div class="outline-text-3" id="text-1-17">
+<p>
+In the terminal version of Emacs, color themes will not render correctly as
+colors are rendered by the terminal and not by emacs. You will probably have to
+change your terminal color palette. More explanations can be found on
+<a href="https://github.com/sellout/emacs-color-theme-solarized#important-note-for-terminal-users">emacs-color-theme-solarized webpage</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-18" class="outline-3">
+<h3 id="sec-1-18"><span class="section-number-3">1.18</span> Typing quickly <code>fd</code> takes me out of <code>insert state</code>. What is going on?</h3>
+<div class="outline-text-3" id="text-1-18">
+<p>
+This is a feature of Spacemacs, enabling you to easily escape from a lot of
+situations, like escaping from <code>insert state</code> to <code>normal state</code>.
+</p>
+
+<p>
+The sequence of characters used can be customized. See the <a href="http://spacemacs.org/doc/DOCUMENTATION.html#escaping">documentation</a> for
+more information.
+</p>
+
+<p>
+If you don't like this feature, you can deactivate it by adding <code>evil-escape</code> to
+<code>dotspacemacs-excluded-packages</code> in your init file.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-19" class="outline-3">
+<h3 id="sec-1-19"><span class="section-number-3">1.19</span> Why do I get files starting with .#?</h3>
+<div class="outline-text-3" id="text-1-19">
+<p>
+These are lockfiles, created by Emacs to prevent editing conflicts which occur
+when the same file is edited simultaneously by two different programs. To
+disable this behaviour:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(setq create-lockfiles nil)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-20" class="outline-3">
+<h3 id="sec-1-20"><span class="section-number-3">1.20</span> Why do I get '4m' characters inside ansi-term?</h3>
+<div class="outline-text-3" id="text-1-20">
+<p>
+Ansi-term only has a subset of capabilities supported by xterm256. Your shell
+(e.g. fish shell) might ignore <code>$TERMINFO</code> information and require you to set
+the <code>~/.terminfo</code> yourself.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-fish">tic -o ~/.terminfo $TERMINFO/e/eterm-color.ti
+</pre>
+</div>
+
+<p>
+Note that <code>eterm-color.ti</code> may be at a different location, to find out the exact
+location you may try to use <code>locate</code>:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-fish">locate eterm-color.ti
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-21" class="outline-3">
+<h3 id="sec-1-21"><span class="section-number-3">1.21</span> Why are my font settings not being respected?</h3>
+<div class="outline-text-3" id="text-1-21">
+<p>
+The settings of <code>dotspacemacs-default-font</code> (such as size, weight, etc.) will
+only be applied if the name of the font exists on your system. Check to make
+sure that this is the case. If Spacemacs can't find the font, there should be a
+warning to this effect in the <code>*Messages*</code> buffer.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-22" class="outline-3">
+<h3 id="sec-1-22"><span class="section-number-3">1.22</span> Why am I getting a message about environment variables on startup?</h3>
+<div class="outline-text-3" id="text-1-22">
+<p>
+Spacemacs uses the <code>exec-path-from-shell</code> package to set the executable path
+when Emacs starts up. This is done by launching a shell and reading the values
+of variables such as <code>PATH</code> and <code>MANPATH</code> from it. If your shell configuration
+sets the values of these variables inconsistently, this could be problematic. It
+is recommended to set such variables in shell configuration files that are
+sourced unconditionally, such as <code>.profile</code>, <code>.bash_profile</code> or <code>.zshenv</code>, as
+opposed to files that are sourced only for interactive shells, such as <code>.bashrc</code>
+or <code>.zshrc</code>. If you are willing to neglect this advice, you may disable the
+warning, e.g. from <code>dotspacemacs/user-init</code>:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(setq exec-path-from-shell-check-startup-files nil)
+</pre>
+</div>
+
+<p>
+You can also disable this feature entirely by adding <code>exec-path-from-shell</code> to
+the list <code>dotspacemacs-excluded-packages</code> if you prefer setting <code>exec-path</code>
+yourself.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-how-do-i" class="outline-2">
+<h2 id="how-do-i"><a id="sec-2" name="sec-2"></a><span class="section-number-2">2</span> How do I:</h2>
+<div class="outline-text-2" id="text-how-do-i">
+</div>
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Install a package not provided by a layer?</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Spacemacs provides a variable in the <code>dotspacemacs/layers</code> function in
+<code>.spacemacs</code> called <code>dotspacemacs-additional-packages</code>. Just add a package name
+to the list and it will be installed when you reload your configuration with
+<code>SPC f e R</code>, or at the next Spacemacs launch.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Disable a package completely?</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+To completely disable a package and effectively uninstalling it even if it is
+part of your used layers, look for the variable <code>dotspacemacs-excluded-packages</code>
+in your dotfile and add the package name to it:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(setq-default dotspacemacs-excluded-packages '(package1 package2 ...))
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> Disable a package only for a specific major-mode?</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+This is done by removing the hook added by Spacemacs. For example to remove
+<code>flycheck</code> support in python buffers, look for the function
+<code>dotspacemacs/user-config</code> in your dotfile and add the following code:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(remove-hook 'python-mode-hook 'flycheck-mode)
+</pre>
+</div>
+
+<p>
+<b>Hint</b> to know the name of the major-mode of the current buffer press: <code>SPC h d
+v major-mode RET</code>
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="section-number-3">2.4</span> Disable company for a specific major-mode?</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+It may be handy to disable <code>company</code> for a given mode if you plan on configuring
+<code>auto-complete</code> instead. One easy way to do it is to use the macro
+<code>spacemacs|disable-company</code> in the function <code>dotspacemacs/user-config</code> of your
+dotfile. The following snippet disables company for <code>python-mode</code>:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(spacemacs|disable-company python-mode)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-change-special-buffer-rules" class="outline-3">
+<h3 id="change-special-buffer-rules"><a id="sec-2-5" name="sec-2-5"></a><span class="section-number-3">2.5</span> Change special buffer rules?</h3>
+<div class="outline-text-3" id="text-change-special-buffer-rules">
+<p>
+To change the way spacemacs marks buffers as useless, you can customize
+<code>spacemacs-useless-buffers-regexp</code> which marks buffers matching the regexp as
+useless. The variable <code>spacemacs-useful-buffers-regexp</code> marks buffers matching
+the regexp as useful buffers. Both can be customized the same way.
+</p>
+
+<p>
+Examples:
+</p>
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">;; Only mark helm buffers as useless
+(setq spacemacs-useless-buffers-regexp '("\\*helm\.\+\\*"))
+
+;; Marking the *Messages* buffer as useful
+(push "\\*Messages\\*" spacemacs-useful-buffers-regexp)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-6" class="outline-3">
+<h3 id="sec-2-6"><span class="section-number-3">2.6</span> Enable navigation by visual lines?</h3>
+<div class="outline-text-3" id="text-2-6">
+<p>
+Add the following snippet to your <code>dotspacemacs/user-config</code> function:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">;; Make evil-mode up/down operate in screen lines instead of logical lines
+(define-key evil-motion-state-map "j" 'evil-next-visual-line)
+(define-key evil-motion-state-map "k" 'evil-previous-visual-line)
+;; Also in visual mode
+(define-key evil-visual-state-map "j" 'evil-next-visual-line)
+(define-key evil-visual-state-map "k" 'evil-previous-visual-line)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-7" class="outline-3">
+<h3 id="sec-2-7"><span class="section-number-3">2.7</span> Disable evilification of a mode?</h3>
+<div class="outline-text-3" id="text-2-7">
+<p>
+You can ensure a mode opens in emacs state by using <code>evil-set-initial-state</code>.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(evil-set-initial-state 'magit-status-mode 'emacs)
+</pre>
+</div>
+
+<p>
+You can also do this using buffer name regular expressions. E.g. for magit,
+which has a number of different major modes, you can catch them all with
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(push '("*magit" . emacs) evil-buffer-regexps)
+</pre>
+</div>
+
+<p>
+This should make all original magit bindings work in the major modes in
+question. To enable the leader key in this case, you may have to define a
+binding in the mode's map, e.g. for <code>magit-status-mode</code>,
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(with-eval-after-load 'magit
+  (define-key magit-status-mode-map
+    (kbd dotspacemacs-leader-key) spacemacs-default-map))
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-8" class="outline-3">
+<h3 id="sec-2-8"><span class="section-number-3">2.8</span> Include underscores in word motions?</h3>
+<div class="outline-text-3" id="text-2-8">
+<p>
+You can modify the syntax table of the mode in question. To do so you can
+include this on your <code>dotspacemacs/user-config</code>.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">;; For python
+(add-hook 'python-mode-hook #'(lambda () (modify-syntax-entry ?_ "w")))
+;; For ruby
+(add-hook 'ruby-mode-hook #'(lambda () (modify-syntax-entry ?_ "w")))
+;; For Javascript
+(add-hook 'js2-mode-hook #'(lambda () (modify-syntax-entry ?_ "w")))
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-9" class="outline-3">
+<h3 id="sec-2-9"><span class="section-number-3">2.9</span> Setup <code>$PATH</code>?</h3>
+<div class="outline-text-3" id="text-2-9">
+<p>
+Some layers require certain tools to be available on your <code>$PATH</code>. This means
+that your <code>$PATH</code> must contain the installation paths for those tools. For
+example, if you have installed some tools to <code>~/.local/bin</code> and want them to be
+available in Spacemacs, you need to add <code>~/.local/bin</code> to your <code>$PATH</code>.
+</p>
+
+<p>
+Users of <code>bash</code>, <code>zsh</code>, <code>sh</code> and other similar shells should add following line
+to their <code>.bashrc</code> (<code>.zshrc</code>, <code>.profile</code> or your shell's equivalent). Note that
+the <code>export</code> part is very important.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">export PATH=~/.local/bin:$PATH
+</pre>
+</div>
+
+<p>
+Users of <code>fish</code> should add following line to their <code>config.fish</code> file (should be
+in <code>$XDG_CONFIG_HOME</code> or its default value - <code>~/.config/fish</code>). Note that <code>-x</code>
+part is very important.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-fish">set -x PATH ~/.local/bin $PATH
+</pre>
+</div>
+
+<p>
+Users of other shells should consult its documentation on how to setup <code>$PATH</code>
+variable (with export to environment).
+</p>
+
+<p>
+So now, <code>~/.local/bin</code> should be available in your <code>$PATH</code>. You can verify this
+by calling <code>echo $PATH</code>. But you also should verify that <code>$PATH</code> is set properly
+in your environment. To do so call following command in your terminal.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">env | grep "PATH"
+</pre>
+</div>
+
+<p>
+This is the value that will be used by Emacs. So it must contain <code>~/.local/bin</code>.
+</p>
+
+<p>
+After that you can run Spacemacs and check that it properly gets the value of
+<code>$PATH</code> by running <code>M-: (getenv "PATH")</code>.
+</p>
+
+<p>
+Note that having <code>~/.local/bin</code> in your <code>$PATH</code> also means that it's possible to
+run terminal and call tools from <code>~/.local/bin</code> without specifying their full
+path. Under certain conditions you might want to avoid modifying your <code>$PATH</code>.
+In that case you have the option of updating the value of <code>exec-path</code> in the
+<code>dotspacemacs/user-config</code> function of your <code>.spacemacs</code> file.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(add-to-list 'exec-path "~/.local/bin/")
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-10" class="outline-3">
+<h3 id="sec-2-10"><span class="section-number-3">2.10</span> Change or define an alias for a leader key?</h3>
+<div class="outline-text-3" id="text-2-10">
+<p>
+It is possible to change a leader key by binding its keymap to another sequence.
+For instance, if you want to switch <code>SPC S</code> (spelling) with <code>SPC d</code> (used by
+dash) to make the former easier to reach, you can use:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(defun dear-leader/swap-keys (key1 key2)
+  (let ((map1 (lookup-key spacemacs-default-map key1))
+	(map2 (lookup-key spacemacs-default-map key2)))
+    (spacemacs/set-leader-keys key1 map2 key2 map1)))
+(dear-leader/swap-keys "S" "d")
+</pre>
+</div>
+
+<p>
+If you want to define your own alias, like using <code>SPC é</code> (because it's a not
+used key on your keyboard-layout for instance) for accessing <code>SPC w</code> (windows
+management), you can use this:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(defun dear-leader/alias-of (key1 key2)
+  (let ((map (lookup-key spacemacs-default-map key2)))
+    (spacemacs/set-leader-keys key1 map)))
+(dear-leader/alias-of "é" "w")
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-11" class="outline-3">
+<h3 id="sec-2-11"><span class="section-number-3">2.11</span> Restore the sentence delimiter to two spaces?</h3>
+<div class="outline-text-3" id="text-2-11">
+<p>
+To restore the sentence delimiter to two spaces, add the following code to the
+<code>dotspacemacs/user-init</code> function of your <code>.spacemacs</code>:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(setq sentence-end-double-space t)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-12" class="outline-3">
+<h3 id="sec-2-12"><span class="section-number-3">2.12</span> Prevent the visual selection overriding my system clipboard?</h3>
+<div class="outline-text-3" id="text-2-12">
+<p>
+On some operating systems, there is only one clipboard for both <b>copied</b> and
+<b>selected</b> texts. This has the consequence that visual <b>selection</b> – which
+should normally be saved to the <i>PRIMARY</i> clipboard – overrides the <i>SYSTEM</i>
+clipboard, where normally goes the <b>copied</b> text. This can be corrected by
+adding the following code to the <code>dotspacemacs/user-config</code> of your
+<code>.spacemacs</code>:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(fset 'evil-visual-update-x-selection 'ignore)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-13" class="outline-3">
+<h3 id="sec-2-13"><span class="section-number-3">2.13</span> Make spell-checking support curly quotes (or any other character)?</h3>
+<div class="outline-text-3" id="text-2-13">
+<p>
+To have spell-checking support curly quotes (or any other character), you need
+to add a new entry to <code>ispell-local-dictionary-alist</code>, by adding for example the
+following code in the <code>dotspacemacs/user-config</code> of your <code>.spacemacs</code>:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(add-to-list 'ispell-local-dictionary-alist
+  (quote ("my_english" "[[:alpha:]]" "[^[:alpha:]]" "['’]" t ("-d" "en_US") nil utf-8)))
+</pre>
+</div>
+
+<p>
+You can then add any regular expression you want in the fourth argument (i.e.
+add a symbol within <code>['’]</code>) to make it supported. Consult the help of
+<code>ispell-dictionary-alist</code> for more details about the possibilities.
+</p>
+
+<p>
+You finally have to set <code>my_english</code> as your <code>ispell-local-dictionary</code> in order
+to use the dictionary supporting your newly added characters.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-14" class="outline-3">
+<h3 id="sec-2-14"><span class="section-number-3">2.14</span> Use Spacemacs as the <code>$EDITOR</code> for git commits?</h3>
+<div class="outline-text-3" id="text-2-14">
+<p>
+Spacemacs can be used as the <code>$EDITOR</code> (or <code>$GIT_EDITOR</code>) for editing git
+commits messages. To enable this you have to add the following line to your
+<code>dotspacemacs/user-config</code>:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(global-git-commit-mode t)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-15" class="outline-3">
+<h3 id="sec-2-15"><span class="section-number-3">2.15</span> Try Spacemacs without modifying my existing Emacs configuration?</h3>
+<div class="outline-text-3" id="text-2-15">
+<p>
+Emacs' ability to use any directory as the home for launching it allows us to
+try out Spacemacs (or any other Emacs configuration we desire) without having to
+go through the trouble of backing up our <code>~/.emacs.d</code> directory and then cloning
+the new configuration. This can be achieved easily using the following steps:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">mkdir ~/spacemacs
+git clone git@github.com:syl20bnr/spacemacs.git ~/spacemacs/.emacs.d
+HOME=~/spacemacs emacs
+</pre>
+</div>
+
+<p>
+If you're on Fish shell, you will need to modify the last command to:
+<code>env HOME=$HOME/spacemacs emacs</code>
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-16" class="outline-3">
+<h3 id="sec-2-16"><span class="section-number-3">2.16</span> Make copy/paste working with the mouse in X11 terminals?</h3>
+<div class="outline-text-3" id="text-2-16">
+<p>
+It is possible to disable the mouse support in X11 terminals in order to
+enable copying/pasting with the mouse. You need to add this line to your
+<code>dotspacemacs/user-config</code>:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(xterm-mouse-mode -1)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-17" class="outline-3">
+<h3 id="sec-2-17"><span class="section-number-3">2.17</span> Use <code>helm-ag</code> to search only in files of a certain type?</h3>
+<div class="outline-text-3" id="text-2-17">
+<p>
+It is possible to restrict the scope of <code>helm-ag</code> to search only expressions in
+some specified file types. There are two ways of doing this, both by appending
+some expressions to the search input:
+</p>
+
+<ul class="org-ul">
+<li>By using a regexp with <code>-G</code>, for instance <code>-G\.el$</code> will look for all files
+ending with <code>.el</code> which are emacs-lisp files.
+</li>
+
+<li>By using a flag like <code>--python</code> which should be self-explaining. The list of
+available flags colud be accessed from terminal with:
+
+<div class="org-src-container">
+
+<pre class="src src-shell">ag --list-file-types
+</pre>
+</div>
+</li>
+</ul>
+
+<p>
+This is possible because <code>helm-ag</code> is treating the search input as command-line
+arguments of the <code>ag</code> program.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-18" class="outline-3">
+<h3 id="sec-2-18"><span class="section-number-3">2.18</span> Modify spacemacs documentation look (space-doc-mode)</h3>
+<div class="outline-text-3" id="text-2-18">
+<p>
+You can modify the list of visual enhancements applied by the <code>space-doc-mode</code>:
+</p>
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(setq spacemacs-space-doc-modificators
+      '(center-buffer-mode
+	org-indent-mode
+	view-mode
+	hide-line-numbers
+	alternative-emphasis
+	alternative-tags-look
+	link-protocol
+	org-block-line-face-remap
+	org-kbd-face-remap
+	resize-inline-images))
+</pre>
+</div>
+<p>
+By default only <code>center-buffer-mode</code> is disabled.
+Both <code>space-doc-mode</code> and <code>center-buffer-mode</code> can be customized
+with "Easy Customization Interface".
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-19" class="outline-3">
+<h3 id="sec-2-19"><span class="section-number-3">2.19</span> Remap paste key to be able to paste copied text multiple times</h3>
+<div class="outline-text-3" id="text-2-19">
+<p>
+In vim and evil, pasting over a text would cause it to be copied, hence making it impossible to paste
+the same text multiple times.
+</p>
+
+<p>
+To fix this, add the following snippet to your <code>user-config</code>:
+</p>
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(defun evil-paste-after-from-0 ()
+  (interactive)
+  (let ((evil-this-register ?0))
+    (call-interactively 'evil-paste-after)))
+
+(define-key evil-visual-state-map "p" 'evil-paste-after-from-0)
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Windows</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> Why do the fonts look crappy on Windows?</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+You can install <a href="https://code.google.com/archive/p/gdipp/">GDIPP</a> (simplest) or <a href="https://code.google.com/p/mactype/">MacType</a> (more complete) on Windows to get
+very nice looking fonts. It is also recommended to disable smooth scrolling on
+Windows.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> Why is there no Spacemacs logo in the startup buffer?</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+A GUI build of emacs supporting image display is required. You can follow the
+instructions <a href="http://stackoverflow.com/questions/2650041/emacs-under-windows-and-png-files">here</a>. Alternatively you can download binaries of emacs with image
+support included such as <a href="http://emacsbinw64.sourceforge.net/">this one</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> Why are all packages unavailable?</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+Check if your Emacs has HTTPS capabilities by doing <code>M-:</code> and then:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(gnutls-available-p)
+</pre>
+</div>
+
+<p>
+If this returns <code>nil</code>, you need to install the GnuTLS DLL file in the same
+directory as Emacs. See <a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs-gnutls.html#Help-For-Users">here</a> for instructions.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-4" class="outline-3">
+<h3 id="sec-3-4"><span class="section-number-3">3.4</span> The powerline isn't shown correctly when Spacemacs is used within <code>PuTTY</code></h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+You can follow <a href="http://mschulte.nl/posts/using-powerline-in-PuTTY.html">this explanation</a> explaining how to correct this.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Yudi Xue</p>
+<p class="date">Created: 2017-11-15 Wed 12:36</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
