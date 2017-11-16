@@ -7,11 +7,11 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 DOC_ROOT = 'Spacemacs.docset/Contents/Resources/Documents/'
 DOC_DIR = 'doc'
 DOCS = [
-    ('quick_start.html', 'Guide'),
-    ('beginners_tutorial.html', 'Guide'),
-    ('layers.html', 'Guide'),
-    ('vimusers.html', 'Guide'),
-    ('documentation.html', 'Library'),
+    ('QUICK_START.html', 'Guide'),
+    ('BEGINNERS_TUTORIAL.html', 'Guide'),
+    ('LAYERS.html', 'Guide'),
+    ('VIMUSERS.html', 'Guide'),
+    ('DOCUMENTATION.html', 'Library'),
 ]
 
 
